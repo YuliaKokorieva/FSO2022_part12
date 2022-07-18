@@ -3,3 +3,4 @@ ls
 mkdir /usr/src/app
 touch index.js
 ls
+exit

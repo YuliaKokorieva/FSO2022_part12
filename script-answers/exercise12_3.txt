@@ -1,0 +1,14 @@
+docker start -i determined_meninsky
+
+root@2aa5409c08b8:/# apt-get update
+root@2aa5409c08b8:/# apt-get -y install nano
+root@2aa5409c08b8:/# nano /usr/src/app/index.js
+
+in Nano:
+console.log("Hello World")
+CTRL + X to close, Y to save changes, ENTER to confirm file name
+
+to check if changes are saved:
+root@2aa5409c08b8:/# nano /usr/src/app/index.js 
+in Nano: 
+CTRL + X to close

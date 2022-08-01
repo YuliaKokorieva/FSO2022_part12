@@ -1,0 +1,13 @@
+docker exec -it 1acc22965d424e88a0f7f6c5f81e72088970309845e424b4259ae76187ae8013 bash
+redis-cli
+KEYS *
+--result: 1) "todoCount"
+GET todoCount
+--result: "5"
+SET todoCount 9001
+-- check in the browser from http://localhost:3000/statistics
+DEL todoCount
+-- add a new todo from VSCODE Rest client
+KEYS *
+GET todoCount
+--result: 1

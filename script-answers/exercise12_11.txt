@@ -11,3 +11,5 @@ DEL todoCount
 KEYS *
 GET todoCount
 --result: 1
+exit
+exit

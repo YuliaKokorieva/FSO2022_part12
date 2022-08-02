@@ -1,5 +1,4 @@
 FROM node:16 AS build-stage
-USER node
 WORKDIR /usr/src/app
 COPY . .
 ENV NODE_ENV=production
